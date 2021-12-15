@@ -12,6 +12,7 @@
     "web-vitals": "^2.1.2"
   },
   "scripts": {
+    "docker-build": "docker compose -f ./docker-compose.yaml build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
